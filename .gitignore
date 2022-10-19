@@ -1,0 +1,36 @@
+/**/node_modules/
+.vscode/
+/build/
+/certificates
+/passes
+/.next
+
+/lambda/build/
+/lambda/yarn.lock
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+/infrastructure/*.out
+/infrastructure/build-config-vars.tf
+/infrastructure/build-config.auto.tfvars
+/infrastructure/*.backend.tfvars
+/infrastructure/generated-*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# local variable files
+local.*tfvars
+/infrastructure/lambda-upload.tf
+*.common.config.json
+
+# other
+/**/.DS_Store
+env.sh
+*.key
+*.key.pub
+
